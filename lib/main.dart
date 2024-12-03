@@ -1,8 +1,13 @@
+import 'package:chatbot2/chat_flow.dart';
 import 'package:chatbot2/chat_intro.dart';
+import 'package:chatbot2/splash.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(ChatIntro());
+  runApp(Splash());
+  // runApp(Intro());
+  // runApp(ChatIntro());
+  // runApp(ChatFlow());
 }
 
 class Intro extends StatelessWidget {
